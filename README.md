@@ -16,12 +16,12 @@ This is my attempt on the Bitly coding excercise.
 * Even the code looks a bit messy and it needs some kind of refactoring.
 * Current Publication/Subscription model is bit messy and it would slow down the app if the amount of URL user queried is a huge. 
 
-### Folder structure
+## Folder structure
 
 ```
 client/ 				# Client folder
     modules/            # Meant for templates and views
-	common/         # General purpose html templates
+	common/             # General purpose html templates
 public/                 # Public files
 lib/                    # All routes and Meteor Collections
 server/					# Server folder
